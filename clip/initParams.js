@@ -17,37 +17,37 @@ export const initParams = [
         number:"01",
         firstname:"David",
         lastname:"De Gea",
-        img:"assets/davidDeGea.png"
+        img:"https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/davidDeGea.png?raw=true"
       },
       player2:{
         number:"05",
         firstname:"Harry",
         lastname:"Maguire",
-        img:"assets/harry.png"
+        img:"https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/harry.png?raw=true"
       },
       player3:{
         number:"06",
         firstname:"Paul",
         lastname:"Pogba",
-        img:"assets/pogba.png"
+        img:"https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/pogba.png?raw=true"
       },
       player4:{
         number:"07",
         firstname:"Cristiano",
         lastname:"Ronaldo",
-        img:"assets/ronaldo.png"
+        img:"https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/ronaldo.png?raw=true"
       },
       player5:{
         number:"10",
         firstname:"Marcus",
         lastname:"Rashford",
-        img:"assets/rashford.png"
+        img:"https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/rashford.png?raw=true"
       },
       player6:{
         number:"18",
         firstname:"Bruno",
         lastname:"Fernandes",
-        img:"assets/bruno.png"
+        img:"https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/bruno.png?raw=true"
       },
     },
   },

@@ -34,7 +34,7 @@
   width: 18%;
   height: 18%;
   top: 10%;
-  background: url(assets/logo.png);
+  background: url(https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/logo.png?raw=trueg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@
   position: absolute;
   height: 65%;
   width: 65%;
-  background: url(assets/logo.png);
+  background: url(https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/logo.png?raw=true);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -236,7 +236,7 @@
 
 .fog1{
   position: absolute;
-  background: url(assets/fog1.png);
+  background: url(https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/fog1.png?raw=true);
   width: 100%;
   height: 100%;
   top: -10%;
@@ -246,7 +246,7 @@
 }
 .fog2{
   position: absolute;
-  background: url(assets/fog2.png);
+  background: url(https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/fog2.png?raw=true);
   width: 100%;
   height: 100%;
   top: 60%;
