@@ -41,7 +41,7 @@ export const clip = new HTMLClip({
   ],
   audioSources: [
     {
-      src: "assets/sportsAudio.mp3",
+      src: initParams[0].value.audio,
       id: "my-mp3",
       classes: ["songs"],
       base64: false,

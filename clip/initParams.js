@@ -8,7 +8,8 @@ export const initParams = [
       accentRGBAColor:"#FFFFFF1A",
       primaryColor:"#bb1414",//red
       secondaryColor:"#ffa322",//yellow,
-      logo:"assets/logo.png",
+      logo:"https://donkeyclip.github.io/sports-clip/demo/assets/logo.png",
+      audio:"https://donkeyclip.github.io/sports-clip/demo/assets/sportsAudio.mp3",
       intro:{
         name:["MANCHESTER","UNITED"],
         subtitle:["team","intro"]
@@ -17,37 +18,37 @@ export const initParams = [
         number:"01",
         firstname:"David",
         lastname:"De Gea",
-        img:"https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/davidDeGea.png?raw=true"
+        img:"https://donkeyclip.github.io/sports-clip/demo/assets/davidDeGea.png"
       },
       player2:{
         number:"05",
         firstname:"Harry",
         lastname:"Maguire",
-        img:"https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/harry.png?raw=true"
+        img:"https://donkeyclip.github.io/sports-clip/demo/assets/harry.png"
       },
       player3:{
         number:"06",
         firstname:"Paul",
         lastname:"Pogba",
-        img:"https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/pogba.png?raw=true"
+        img:"https://donkeyclip.github.io/sports-clip/demo/assets/pogba.png"
       },
       player4:{
         number:"07",
         firstname:"Cristiano",
         lastname:"Ronaldo",
-        img:"https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/ronaldo.png?raw=true"
+        img:"https://donkeyclip.github.io/sports-clip/demo/assets/ronaldo.png"
       },
       player5:{
         number:"10",
         firstname:"Marcus",
         lastname:"Rashford",
-        img:"https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/rashford.png?raw=true"
+        img:"https://donkeyclip.github.io/sports-clip/demo/assets/rashford.png"
       },
       player6:{
         number:"18",
         firstname:"Bruno",
         lastname:"Fernandes",
-        img:"https://github.com/ElisavetAmpatzidou/sports-clip/blob/main/demo/assets/bruno.png?raw=true"
+        img:"https://donkeyclip.github.io/sports-clip/demo/assets/bruno.png"
       },
     },
   },
