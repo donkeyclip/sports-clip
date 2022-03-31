@@ -290,7 +290,9 @@ export const playerCombo = (selector,logo,numberShadow,line) => new Combo(
       attrs: {
        animatedAttrs: {
         transform:{
-          scale:1
+          scale:1,
+          translateX:"0px",
+          translateY:"0px",
         }
        }
       },
@@ -630,7 +632,9 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
       attrs: {
        animatedAttrs: {
         transform:{
-          scale:1.05
+          scale:1.05,
+          translateX:"0px",
+          translateY:"0px",
         }
        }
       },
@@ -899,7 +903,9 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
       attrs: {
        animatedAttrs: {
         transform:{
-          scale:1.05
+          scale:1.05,
+          translateX:"0px",
+          translateY:"0px",
         }
        }
       },
