@@ -451,7 +451,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
       props: {
        selector: lastnameBackLetterTop,
        duration: 300,
-       delay:"@stagger(0,500)",
+       delay:"@expression(random(700))",
        easing: "linear"
       },
       position: 1500
@@ -465,8 +465,8 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
       },
       props: {
        selector: lastnameLetter,
-       duration: 200,
-       delay:"@stagger(0,300)",
+       duration: 300,
+       delay:"@expression(random(400))",
        easing: "linear"
       },
       position: 900
@@ -480,7 +480,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
       },
       props: {
        selector: lastnameLetter,
-       duration: 400,
+       duration: 600,
        easing: "linear"
       },
       position: 1000
@@ -722,7 +722,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
       props: {
        selector: lastnameBackLetterTop,
        duration: 300,
-       delay:"@stagger(0,500)",
+       delay:"@expression(random(700))",
        easing: "linear"
       },
       position: 1500
@@ -736,8 +736,8 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
       },
       props: {
        selector: lastnameLetter,
-       duration: 200,
-       delay:"@stagger(0,300)",
+       duration: 300,
+       delay:"@expression(random(400))",
        easing: "linear"
       },
       position: 900

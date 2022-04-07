@@ -145,16 +145,14 @@
 
 .intro .name-back{
   position: absolute;
-  top: 0%;
+  top: -8%;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 300px;
+  font-size: 470px;
   text-align: center;
   background-clip: text;
+  -webkit-text-stroke: 2px var(--primaryColor); 
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--primaryColor);
   font-family: 'Chakra Petch', sans-serif;
   letter-spacing: 30px;
   font-weight: 700;
@@ -185,12 +183,12 @@
 }
 
 .intro .subtitle{
+  font-family: 'Bebas Neue', cursive;
   white-space: nowrap;
   font-weight: 700;
   letter-spacing: 20px;
   font-size: 160px;
   color: var(--accentColor);
-  transform: scaleX(0.5);
   gap: 30px;
 }
 
@@ -324,9 +322,6 @@
   font-size: 1300px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: var(--accentRGBAColor);
-  text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
-                10px 20px 5px rgba(0,0,0,0.05),
-                -10px 20px 5px rgba(0,0,0,0.05);
 }
 
 .player .player-img{
@@ -431,7 +426,7 @@
   -webkit-background-clip: text;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--secondaryColor);
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Gemunu Libre', sans-serif;
   letter-spacing: 30px;
   font-weight: 700;
 }
@@ -555,9 +550,8 @@
 
 .player-info .lastname .letter{
   font-size: 200px;
-  text-align: center;;
   color: var(--secondaryColor);
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Gemunu Libre', sans-serif;
   font-weight: 700;
   letter-spacing: 40px;
 }
@@ -572,9 +566,10 @@
 
 .player-info .firstname .letter{
   font-size: 60px;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Audiowide', cursive;
   color: var(--accentColor);
   opacity: 0;
+  text-transform: uppercase;
 }
 
 .player-info1 .wide-line.top{

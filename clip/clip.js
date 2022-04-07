@@ -36,7 +36,7 @@ export const clip = new HTMLClip({
   fonts: [
     {
       type: "google-font",
-      src: "https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&&family=Dancing+Script&family=Varela+Round&display=swap",
+      src: "https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Audiowide&family=Bebas+Neue&family=Gemunu+Libre:wght@700&display=swap",
     },
   ],
   audioSources: [
@@ -83,10 +83,10 @@ clip.addIncident(scale(1, ".intro", 100), 200);
 clip.addIncident(opacity(0.5, ".intro .name-back .letter", 200, "@stagger(0,300)"),500);
 clip.addIncident(letterSpacing("2px", ".name-back", 400), 600);
 
-clip.addIncident(opacity(1, ".intro .name .letter", 700, "@stagger(0,300)"),700);
+clip.addIncident(opacity(1, ".intro .name .letter", 700, "@expression(random(500))"),700);
 clip.addIncident(letterSpacing("0px", ".intro .name", 400), 700);
 
-clip.addIncident(opacity(1, ".intro .subtitle .letter", 700, "@stagger(0,300)"),900);
+clip.addIncident(opacity(1, ".intro .subtitle .letter", 700, "@expression(random(200))"),900);
 clip.addIncident(letterSpacing("5px", ".intro .subtitle", 400), 900);
 
 clip.addIncident(changeColor("@initParams.accentColor", ".intro .name", 1),1000);
