@@ -23,11 +23,13 @@ import {
   playerInfoCombo2
 } from "./incidents";
 import { initParams } from "./initParams";
+import initParamsValidationRules from "./initParamsValidationRules";
 
 export const clip = new HTMLClip({
   html,
   css,
   host: document.getElementById("clip"),
+  initParamsValidationRules,
   initParams: initParams[0].value,
   containerParams: {
     width: "1920px",

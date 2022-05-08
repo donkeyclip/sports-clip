@@ -3,7 +3,7 @@ export const initParams = [
     name: "Default",
     value: {
       baseColor: "black",
-      backgroundColor:"	#181818",
+      backgroundColor:"#181818",
       accentColor:"#FFFFFF",
       accentRGBAColor:"#FFFFFF1A",
       primaryColor:"#bb1414",//red
