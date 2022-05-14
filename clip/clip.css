@@ -240,7 +240,7 @@
   top: -10%;
   left: 0%;
   background-size: cover;
-  opacity: 0.4;
+  opacity: 0;
 }
 .fog2{
   position: absolute;
@@ -250,7 +250,7 @@
   top: 60%;
   left: 0%;
   background-size: cover;
-  opacity: 0.4;
+  opacity: 0;
 }
 
 .smudge{
@@ -324,60 +324,23 @@
   -webkit-text-stroke-color: var(--accentRGBAColor);
 }
 
+.players{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 .player .player-img{
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
-.player1 .player-img,.player1-info .player-img{
-  background: url({{initParams.player1.img}});
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.player2 .player-img,.player2-info .player-img{
-  background: url({{initParams.player2.img}});
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.player3 .player-img,.player3-info .player-img{
-  background: url({{initParams.player3.img}});
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.player4 .player-img,.player4-info .player-img{
-  background: url({{initParams.player4.img}});
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.player5 .player-img,.player5-info .player-img{
-  background: url({{initParams.player5.img}});
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.player6 .player-img,.player6-info .player-img{
-  background: url({{initParams.player6.img}});
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.player1 .logo,.player3 .logo,.player5 .logo{
+.player0 .logo,.player2 .logo,.player4 .logo{
   left: 1%;
   opacity: 0;
 }
 
-.player2 .logo,.player4 .logo,.player6 .logo{
+.player1 .logo,.player3 .logo,.player5 .logo{
   right: 1%;
   opacity: 0;
 }

@@ -289,6 +289,148 @@ export const playerCombo = (selector,logo,numberShadow,line) => new Combo(
       incidentClass: CSSEffect,
       attrs: {
        animatedAttrs: {
+         opacity:0.4,
+       }
+      },
+      props: {
+       selector: ".fog1",
+       duration:100,
+      },
+      position: 0
+     },
+     {
+      incidentClass: CSSEffect,
+      attrs: {
+       animatedAttrs: {
+         opacity:0.4,
+       }
+      },
+      props: {
+       selector: ".fog2",
+       duration:100,
+      },
+      position: 0
+     },
+    {
+      incidentClass: CSSEffect,
+      attrs: {
+       animatedAttrs: {
+         left:"60%",
+       }
+      },
+      props: {
+       selector: ".fog1",
+       duration:3200,
+      },
+      position: 0
+     },
+     {
+      incidentClass: CSSEffect,
+      attrs: {
+       animatedAttrs: {
+         left:"-20%",
+       }
+      },
+      props: {
+       selector: ".fog2",
+       duration:3200,
+      },
+      position: 0
+     },
+    {
+      incidentClass: CSSEffect,
+      attrs: {
+       animatedAttrs: {
+         right:"60%",
+         top:"60%"
+       }
+      },
+      props: {
+       selector: ".smudge.tr",
+       duration: 2500,
+       easing: "easeInOutQuint"
+      },
+      position: 0
+     },
+     {
+      incidentClass: CSSEffect,
+      attrs: {
+       animatedAttrs: {
+         left:"60%",
+         bottom:"60%"
+       }
+      },
+      props: {
+       selector: ".smudge.bl",
+       duration: 2500,
+       easing: "easeInOutQuint"
+      },
+      position: 0
+     },
+     {
+       incidentClass: CSSEffect,
+       attrs: {
+        animatedAttrs: {
+          left:"-20%",
+          top:"120%"
+        }
+       },
+       props: {
+        selector: ".smudge.r",
+        duration: 2300,
+        easing: "easeInOutQuint"
+       },
+       position: 200
+      },
+      {
+       incidentClass: CSSEffect,
+       attrs: {
+        animatedAttrs: {
+          left:"50%",
+          top:"-50%"
+        }
+       },
+       props: {
+        selector: ".smudge.l",
+        duration: 2300,
+        easing: "easeInOutQuint"
+       },
+       position: 200
+      },
+      {
+        incidentClass: CSSEffect,
+        attrs: {
+         animatedAttrs: {
+           left:"-20%",
+           top:"120%"
+         }
+        },
+        props: {
+         selector: ".smudge-back1",
+         duration: 2500,
+         easing: "easeInOutQuint"
+        },
+        position: 200
+       },
+       {
+        incidentClass: CSSEffect,
+        attrs: {
+         animatedAttrs: {
+           left:"90%",
+           top:"-50%"
+         }
+        },
+        props: {
+         selector: ".smudge-back2",
+         duration: 2500,
+         easing: "easeInOutQuint"
+        },
+        position: 200
+       },
+      {
+      incidentClass: CSSEffect,
+      attrs: {
+       animatedAttrs: {
         transform:{
           scale:1,
           translateX:"0px",
@@ -301,7 +443,7 @@ export const playerCombo = (selector,logo,numberShadow,line) => new Combo(
        duration: 300,
        easing: "linear"
       },
-      position: 0
+      position: 1150
      },
     {
      incidentClass: CSSEffect,
@@ -315,7 +457,7 @@ export const playerCombo = (selector,logo,numberShadow,line) => new Combo(
       duration: 100,
       easing: "linear"
      },
-     position: 50
+     position: 1200
     },
     {
       incidentClass: CSSEffect,
@@ -329,7 +471,7 @@ export const playerCombo = (selector,logo,numberShadow,line) => new Combo(
        duration: 600,
        easing: "linear"
       },
-      position: 250
+      position: 1400
      },
      {
       incidentClass: CSSEffect,
@@ -344,7 +486,7 @@ export const playerCombo = (selector,logo,numberShadow,line) => new Combo(
        delay:"@stagger(0,500)",
        easing: "linear"
       },
-      position: 400
+      position: 1550
      },
      {
       incidentClass: CSSEffect,
@@ -358,7 +500,7 @@ export const playerCombo = (selector,logo,numberShadow,line) => new Combo(
        duration: 400,
        easing: "linear"
       },
-      position: 450
+      position: 1600
      },
      {
       incidentClass: CSSEffect,
@@ -372,7 +514,7 @@ export const playerCombo = (selector,logo,numberShadow,line) => new Combo(
        duration: 500,
        easing: "easeInBack"
       },
-      position: 2150
+      position: 3300
      },
      {
       incidentClass: CSSEffect,
@@ -386,12 +528,142 @@ export const playerCombo = (selector,logo,numberShadow,line) => new Combo(
        duration: 300,
        easing: "easeInOutQuart"
       },
-      position: 2650
+      position: 3800
      },
+     {
+      incidentClass: CSSEffect,
+      attrs: {
+       animatedAttrs: {
+         right:"-100%",
+         top:"-100%"
+       }
+      },
+      props: {
+       selector: ".smudge.tr",
+       duration: 2800,
+       easing: "easeInOutQuint"
+      },
+      position: 2500
+     },
+     {
+      incidentClass: CSSEffect,
+      attrs: {
+       animatedAttrs: {
+         left:"-100%",
+         bottom:"-100%"
+       }
+      },
+      props: {
+       selector: ".smudge.bl",
+       duration: 2800,
+       easing: "easeInOutQuint"
+      },
+      position: 2500
+     },
+     {
+       incidentClass: CSSEffect,
+       attrs: {
+        animatedAttrs: {
+          left:"110%",
+          top:"-10%"
+        }
+       },
+       props: {
+        selector: ".smudge.r",
+        duration: 2800,
+        easing: "easeInOutQuint"
+       },
+       position: 2500
+      },
+      {
+       incidentClass: CSSEffect,
+       attrs: {
+        animatedAttrs: {
+          left:"-50%",
+          top:"30%"
+        }
+       },
+       props: {
+        selector: ".smudge.l",
+        duration: 2800,
+        easing: "easeInOutQuint"
+       },
+       position: 2500
+      },
+      {
+        incidentClass: CSSEffect,
+        attrs: {
+         animatedAttrs: {
+          left:"110%",
+          top:"-10%"
+         }
+        },
+        props: {
+         selector: ".smudge-back1",
+         duration: 2500,
+         easing: "easeInOutQuint"
+        },
+        position: 2700
+       },
+       {
+        incidentClass: CSSEffect,
+        attrs: {
+         animatedAttrs: {
+           left:"-50%",
+           top:"80%"
+         }
+        },
+        props: {
+         selector: ".smudge-back2",
+         duration: 2500,
+         easing: "easeInOutQuint"
+        },
+        position: 2700
+       },
+       {
+        incidentClass: CSSEffect,
+        attrs: {
+         animatedAttrs: {
+           left:"0%",
+         }
+        },
+        props: {
+         selector: ".fog1",
+         duration:2000,
+        },
+        position:3200
+       },
+       {
+        incidentClass: CSSEffect,
+        attrs: {
+         animatedAttrs: {
+           left:"0%",
+         }
+        },
+        props: {
+         selector: ".fog2",
+         duration:2000,
+        },
+        position:3200
+       },
+       {
+        incidentClass: CSSEffect,
+        attrs: {
+         animatedAttrs: {
+           opacity:0,
+         }
+        },
+        props: {
+         selector: ".fog2,.fog1",
+         duration:100,
+        },
+        position:5200
+       },
    ]
   },
   {
-   selector: ".root",
+   selector: ".players",
+   delay:"@expression(5300*index)"
   }
 );
 
@@ -410,7 +682,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 1,
        easing: "linear"
       },
-      position: 0
+      position: 700
      },
      {
       incidentClass: CSSEffect,
@@ -425,7 +697,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        delay:"@stagger(0,500)",
        easing: "linear"
       },
-      position: 600
+      position: 1300
      },
      {
       incidentClass: CSSEffect,
@@ -439,7 +711,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 600,
        easing: "linear"
       },
-      position: 700
+      position: 1400
      },
      {
       incidentClass: CSSEffect,
@@ -454,7 +726,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        delay:"@expression(random(700))",
        easing: "linear"
       },
-      position: 1500
+      position: 2200
      },
      {
       incidentClass: CSSEffect,
@@ -469,7 +741,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        delay:"@expression(random(400))",
        easing: "linear"
       },
-      position: 900
+      position: 1600
      },
      {
       incidentClass: CSSEffect,
@@ -483,7 +755,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 600,
        easing: "linear"
       },
-      position: 1000
+      position: 1700
      },
      {
       incidentClass: CSSEffect,
@@ -497,7 +769,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 600,
        easing: "linear"
       },
-      position: 600
+      position: 1300
      },
      {
       incidentClass: CSSEffect,
@@ -511,7 +783,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 400,
        easing: "linear"
       },
-      position: 600
+      position: 1300
      },
      {
       incidentClass: CSSEffect,
@@ -525,7 +797,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 200,
        easing: "linear"
       },
-      position: 800
+      position: 1500
      },
      {
       incidentClass: CSSEffect,
@@ -540,7 +812,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        delay:"@stagger(0,300)",
        easing: "linear"
       },
-      position: 1700
+      position: 2400
      },
      {
       incidentClass: CSSEffect,
@@ -554,7 +826,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 400,
        easing: "linear"
       },
-      position: 1700
+      position: 2400
      },
      {
       incidentClass: CSSEffect,
@@ -568,7 +840,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 400,
        easing: "linear"
       },
-      position: 600
+      position: 1300
      },
      {
       incidentClass: CSSEffect,
@@ -582,7 +854,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 900,
        easing: "linear"
       },
-      position: 1900
+      position: 2600
      },
      {
       incidentClass: CSSEffect,
@@ -596,7 +868,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 200,
        easing: "easeInOutCubic"
       },
-      position: 2200
+      position: 2900
      },
      {
       incidentClass: CSSEffect,
@@ -610,7 +882,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 200,
        easing: "easeInOutCubic"
       },
-      position: 2500
+      position: 3200
      },
      {
       incidentClass: CSSEffect,
@@ -625,7 +897,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        delay:"@stagger(0,800)",
        easing: "linear"
       },
-      position: 800
+      position: 1500
      },
      {
       incidentClass: CSSEffect,
@@ -643,7 +915,7 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 1500,
        easing: "linear"
       },
-      position: 2100
+      position: 2800
      },
      {
       incidentClass: CSSEffect,
@@ -657,12 +929,13 @@ export const playerInfoCombo1 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 1,
        easing: "linear"
       },
-      position: 3900
+      position: 4000
      },
    ]
   },
   {
-   selector: ".root",
+   selector: ".players",
+   delay:"@expression(index*5300)"
   }
 );
 
@@ -681,7 +954,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 1,
        easing: "linear"
       },
-      position: 0
+      position: 700
      },
      {
       incidentClass: CSSEffect,
@@ -696,7 +969,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        delay:"@stagger(0,500)",
        easing: "linear"
       },
-      position: 600
+      position: 1300
      },
      {
       incidentClass: CSSEffect,
@@ -710,7 +983,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 600,
        easing: "linear"
       },
-      position: 700
+      position: 1400
      },
      {
       incidentClass: CSSEffect,
@@ -725,7 +998,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        delay:"@expression(random(700))",
        easing: "linear"
       },
-      position: 1500
+      position: 2200
      },
      {
       incidentClass: CSSEffect,
@@ -740,7 +1013,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        delay:"@expression(random(400))",
        easing: "linear"
       },
-      position: 900
+      position: 1600
      },
      {
       incidentClass: CSSEffect,
@@ -754,7 +1027,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 400,
        easing: "linear"
       },
-      position: 1000
+      position: 1700
      },
      {
       incidentClass: CSSEffect,
@@ -768,7 +1041,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 600,
        easing: "linear"
       },
-      position: 600
+      position: 1300
      },
      {
       incidentClass: CSSEffect,
@@ -782,7 +1055,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 400,
        easing: "linear"
       },
-      position: 600
+      position: 1300
      },
      {
       incidentClass: CSSEffect,
@@ -796,7 +1069,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 200,
        easing: "linear"
       },
-      position: 800
+      position: 1500
      },
      {
       incidentClass: CSSEffect,
@@ -811,7 +1084,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        delay:"@stagger(0,300)",
        easing: "linear"
       },
-      position: 1700
+      position: 2400
      },
      {
       incidentClass: CSSEffect,
@@ -825,7 +1098,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 400,
        easing: "linear"
       },
-      position: 1700
+      position: 2400
      },
      {
       incidentClass: CSSEffect,
@@ -839,7 +1112,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 400,
        easing: "linear"
       },
-      position: 600
+      position: 1300
      },
      {
       incidentClass: CSSEffect,
@@ -853,7 +1126,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 900,
        easing: "linear"
       },
-      position: 1900
+      position: 2600
      },
      {
       incidentClass: CSSEffect,
@@ -867,7 +1140,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 200,
        easing: "easeInOutCubic"
       },
-      position: 2200
+      position: 2900
      },
      {
       incidentClass: CSSEffect,
@@ -881,7 +1154,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 200,
        easing: "easeInOutCubic"
       },
-      position: 2500
+      position: 3200
      },
      {
       incidentClass: CSSEffect,
@@ -896,7 +1169,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        delay:"@stagger(0,800)",
        easing: "linear"
       },
-      position: 800
+      position: 1500
      },
      {
       incidentClass: CSSEffect,
@@ -914,7 +1187,7 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 1500,
        easing: "linear"
       },
-      position: 2100
+      position: 2800
      },
      {
       incidentClass: CSSEffect,
@@ -928,12 +1201,13 @@ export const playerInfoCombo2 = (selector,img,logo,numberBack,lastnameBackLetter
        duration: 1,
        easing: "linear"
       },
-      position: 3900
+      position: 4000
      },
    ]
   },
   {
-   selector: ".root",
+   selector: ".players",
+   delay:"@expression(index*5300)"
   }
 );
 
