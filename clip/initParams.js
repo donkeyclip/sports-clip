@@ -2,12 +2,14 @@ export const initParams = [
   {
     name: "Default",
     value: {
-      baseColor: "black",
-      backgroundColor:"#181818",
-      accentColor:"#FFFFFF",
-      accentRGBAColor:"#FFFFFF1A",
-      primaryColor:"#bb1414",//red
-      secondaryColor:"#ffa322",//yellow,
+      styles:{
+        baseColor: "black",
+        backgroundColor:"#181818",
+        accentColor:"#FFFFFF",
+        accentRGBAColor:"#FFFFFF1A",
+        primaryColor:"#bb1414",//red
+        secondaryColor:"#ffa322",//yellow,
+      },
       logo:"https://donkeyclip.github.io/sports-clip/demo/assets/logo.png",
       audio:"https://donkeyclip.github.io/sports-clip/demo/assets/sportsAudio.mp3",
       intro:{

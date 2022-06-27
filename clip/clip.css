@@ -1,10 +1,10 @@
 * {
-  --baseColor: {{ initParams.baseColor }};
-  --backgroundColor: {{ initParams.backgroundColor}};
-  --accentColor: {{ initParams.accentColor}};
-  --accentRGBAColor: {{initParams.accentRGBAColor}};
-  --primaryColor: {{initParams.primaryColor}};
-  --secondaryColor: {{initParams.secondaryColor}};
+  --baseColor: {{ initParams.styles.baseColor }};
+  --backgroundColor: {{ initParams.styles.backgroundColor}};
+  --accentColor: {{ initParams.styles.accentColor}};
+  --accentRGBAColor: {{initParams.styles.accentRGBAColor}};
+  --primaryColor: {{initParams.styles.primaryColor}};
+  --secondaryColor: {{initParams.styles.secondaryColor}};
 }
 
 .root{
