@@ -16,42 +16,44 @@ export const initParams = [
         name:["MANCHESTER","UNITED"],
         subtitle:["team","intro"]
       },
-      player1:{
-        number:"01",
-        firstname:"David",
-        lastname:"De Gea",
-        img:"https://donkeyclip.github.io/sports-clip/demo/assets/davidDeGea.png"
-      },
-      player2:{
-        number:"05",
-        firstname:"Harry",
-        lastname:"Maguire",
-        img:"https://donkeyclip.github.io/sports-clip/demo/assets/harry.png"
-      },
-      player3:{
-        number:"06",
-        firstname:"Paul",
-        lastname:"Pogba",
-        img:"https://donkeyclip.github.io/sports-clip/demo/assets/pogba.png"
-      },
-      player4:{
-        number:"07",
-        firstname:"Cristiano",
-        lastname:"Ronaldo",
-        img:"https://donkeyclip.github.io/sports-clip/demo/assets/ronaldo.png"
-      },
-      player5:{
-        number:"10",
-        firstname:"Marcus",
-        lastname:"Rashford",
-        img:"https://donkeyclip.github.io/sports-clip/demo/assets/rashford.png"
-      },
-      player6:{
-        number:"18",
-        firstname:"Bruno",
-        lastname:"Fernandes",
-        img:"https://donkeyclip.github.io/sports-clip/demo/assets/bruno.png"
-      },
+      players:[
+        {
+          number:"01",
+          firstname:"David",
+          lastname:"De Gea",
+          img:"https://donkeyclip.github.io/sports-clip/demo/assets/davidDeGea.png"
+        },
+        {
+          number:"05",
+          firstname:"Harry",
+          lastname:"Maguire",
+          img:"https://donkeyclip.github.io/sports-clip/demo/assets/harry.png"
+        },
+        {
+          number:"06",
+          firstname:"Paul",
+          lastname:"Pogba",
+          img:"https://donkeyclip.github.io/sports-clip/demo/assets/pogba.png"
+        },
+        {
+          number:"07",
+          firstname:"Cristiano",
+          lastname:"Ronaldo",
+          img:"https://donkeyclip.github.io/sports-clip/demo/assets/ronaldo.png"
+        },
+        {
+          number:"10",
+          firstname:"Marcus",
+          lastname:"Rashford",
+          img:"https://donkeyclip.github.io/sports-clip/demo/assets/rashford.png"
+        },
+        {
+          number:"18",
+          firstname:"Bruno",
+          lastname:"Fernandes",
+          img:"https://donkeyclip.github.io/sports-clip/demo/assets/bruno.png"
+        }
+      ],
     },
   },
 ];

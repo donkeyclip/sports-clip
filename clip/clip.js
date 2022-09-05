@@ -2,12 +2,7 @@ import { HTMLClip, AudioPlayback, AudioEffect} from "@donkeyclip/motorcortex";
 import html from "./clip.html";
 import css from "!!raw-loader!./clip.css";
 import {
-  smudgesCombo1,
-  smudgesCombo2,
-  smudgesBackCombo1,
-  smudgesBackCombo2,
   playerCombo,
-  fogMove,
   scale,
   changeColor,
   changeBackgroundColor,
@@ -103,160 +98,43 @@ clip.addIncident(heightMove("0%", ".intro .block", 100), 1400);
 clip.addIncident(widthMove("23%", ".intro .wide-line", 800, "@stagger(0,300)"),700);
 clip.addIncident(widthMove("10%", ".intro .slim-line", 600, "@stagger(0,300)"),900);
 
-clip.addIncident(fogMove(".background"),0)
-clip.addIncident(fogMove(".background"),8000)
-clip.addIncident(fogMove(".background"),16000)
-clip.addIncident(fogMove(".background"),24000)
-clip.addIncident(fogMove(".background"),32000)
-
-///////
 clip.addIncident(opacity(0, ".intro", 100), 2500);
-/////// player1
-clip.addIncident(playerCombo(
-  ".player1",
-  ".player1 .logo",
-  ".player1 .number-shadow",
-  ".player1 .medium-line"),2450)
-/// player1-info
-clip.addIncident(playerInfoCombo1(
-  ".player1-info",
-  ".player1-info .player-img",
-  ".player1-info .logo",
-  ".player1-info .number-back",
-  ".player1-info .lastname-back .letter",
-  ".player1-info .lastname-back.top .letter",
-  ".player1-info .lastname .letter",
-  ".player1-info .firstname .letter",
-  ".player1-info .number-block",
-  ".player1-info .background",
-  ".player1-info .line"),4500)
 
 clip.addIncident(playerCombo(
-  ".player2",
-  ".player2 .logo",
-  ".player2 .number-shadow",
-  ".player2 .medium-line"),8300)
-
-clip.addIncident(playerInfoCombo2(
-  ".player2-info",
-  ".player2-info .player-img",
-  ".player2-info .logo",
-  ".player2-info .number-back",
-  ".player2-info .lastname-back .letter",
-  ".player2-info .lastname-back.top .letter",
-  ".player2-info .lastname .letter",
-  ".player2-info .firstname .letter",
-  ".player2-info .number-block",
-  ".player2-info .background",
-  ".player2-info .line"),10350)
-
-clip.addIncident(playerCombo(
-  ".player3",
-  ".player3 .logo",
-  ".player3 .number-shadow",
-  ".player3 .medium-line"),14150)
+  ".player",
+  ".player .logo",
+  ".player .number-shadow",
+  ".player .medium-line"),1300)
 
 clip.addIncident(playerInfoCombo1(
-  ".player3-info",
-  ".player3-info .player-img",
-  ".player3-info .logo",
-  ".player3-info .number-back",
-  ".player3-info .lastname-back .letter",
-  ".player3-info .lastname-back.top .letter",
-  ".player3-info .lastname .letter",
-  ".player3-info .firstname .letter",
-  ".player3-info .number-block",
-  ".player3-info .background",
-  ".player3-info .line"),16200)
-
-clip.addIncident(playerCombo(
-  ".player4",
-  ".player4 .logo",
-  ".player4 .number-shadow",
-  ".player4 .medium-line"),20000)
+  ".player-info1",
+  ".player-info1 .player-img",
+  ".player-info1 .logo",
+  ".player-info1 .number-back",
+  ".player-info1 .lastname-back .letter",
+  ".player-info1 .lastname-back.top .letter",
+  ".player-info1 .lastname .letter",
+  ".player-info1 .firstname .letter",
+  ".player-info1 .number-block",
+  ".player-info1 .background",
+  ".player-info1 .line"),3700)
 
 clip.addIncident(playerInfoCombo2(
-  ".player4-info",
-  ".player4-info .player-img",
-  ".player4-info .logo",
-  ".player4-info .number-back",
-  ".player4-info .lastname-back .letter",
-  ".player4-info .lastname-back.top .letter",
-  ".player4-info .lastname .letter",
-  ".player4-info .firstname .letter",
-  ".player4-info .number-block",
-  ".player4-info .background",
-  ".player4-info .line"),22050)
+  ".player-info2",
+  ".player-info2 .player-img",
+  ".player-info2 .logo",
+  ".player-info2 .number-back",
+  ".player-info2 .lastname-back .letter",
+  ".player-info2 .lastname-back.top .letter",
+  ".player-info2 .lastname .letter",
+  ".player-info2 .firstname .letter",
+  ".player-info2 .number-block",
+  ".player-info2 .background",
+  ".player-info2 .line"),3700)
 
-clip.addIncident(playerCombo(
-  ".player5",
-  ".player5 .logo",
-  ".player5 .number-shadow",
-  ".player5 .medium-line"),25850)
-
-clip.addIncident(playerInfoCombo1(
-  ".player5-info",
-  ".player5-info .player-img",
-  ".player5-info .logo",
-  ".player5-info .number-back",
-  ".player5-info .lastname-back .letter",
-  ".player5-info .lastname-back.top .letter",
-  ".player5-info .lastname .letter",
-  ".player5-info .firstname .letter",
-  ".player5-info .number-block",
-  ".player5-info .background",
-  ".player5-info .line"),27900)
-
-clip.addIncident(playerCombo(
-  ".player6",
-  ".player6 .logo",
-  ".player6 .number-shadow",
-  ".player6 .medium-line"),31700)
-
-clip.addIncident(playerInfoCombo2(
-  ".player6-info",
-  ".player6-info .player-img",
-  ".player6-info .logo",
-  ".player6-info .number-back",
-  ".player6-info .lastname-back .letter",
-  ".player6-info .lastname-back.top .letter",
-  ".player6-info .lastname .letter",
-  ".player6-info .firstname .letter",
-  ".player6-info .number-block",
-  ".player6-info .background",
-  ".player6-info .line"),33750)
-///smudges
-clip.addIncident(smudgesCombo1(".smudges"),1300)
-clip.addIncident(smudgesCombo2(".smudges"),3800)
-clip.addIncident(smudgesCombo1(".smudges"),7200)
-clip.addIncident(smudgesCombo2(".smudges"),9700)
-clip.addIncident(smudgesCombo1(".smudges"),13100)
-clip.addIncident(smudgesCombo2(".smudges"),15600)
-clip.addIncident(smudgesCombo1(".smudges"),19000)
-clip.addIncident(smudgesCombo2(".smudges"),21500)
-clip.addIncident(smudgesCombo1(".smudges"),24900)
-clip.addIncident(smudgesCombo2(".smudges"),27400)
-clip.addIncident(smudgesCombo1(".smudges"),30800)
-clip.addIncident(smudgesCombo2(".smudges"),33300)
-clip.addIncident(smudgesCombo1(".smudges"),36500)
-
-///smudges-back
-clip.addIncident(smudgesBackCombo1(".background"),1500)
-clip.addIncident(smudgesBackCombo2(".background"),4000)
-clip.addIncident(smudgesBackCombo1(".background"),7400)
-clip.addIncident(smudgesBackCombo2(".background"),9900)
-clip.addIncident(smudgesBackCombo1(".background"),13300)
-clip.addIncident(smudgesBackCombo2(".background"),15800)
-clip.addIncident(smudgesBackCombo1(".background"),19200)
-clip.addIncident(smudgesBackCombo2(".background"),21700)
-clip.addIncident(smudgesBackCombo1(".background"),25100)
-clip.addIncident(smudgesBackCombo2(".background"),27600)
-clip.addIncident(smudgesBackCombo1(".background"),31000)
-clip.addIncident(smudgesBackCombo2(".background"),33500)
-clip.addIncident(smudgesBackCombo1(".background"),36700)
-
-clip.addIncident(scale(1,".logo-slide",300),37550)
-clip.addIncident(opacity(1,".logo-slide",1),37550)
+  //we need total duration to add this and audio
+// clip.addIncident(scale(1,".logo-slide",300),37550)
+// clip.addIncident(opacity(1,".logo-slide",1),37550)
 
 
 
